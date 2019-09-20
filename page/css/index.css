@@ -1,0 +1,54 @@
+.every_day{
+    background-color: white;
+    box-shadow: 3px 4px 3px #555555;
+    width: 100%;
+    border-radius: 8px;
+    padding: 19px;
+    text-align: left;
+    margin-bottom:20px;
+    box-sizing: border-box; 
+    background-color: #f5f5f5;
+}
+.every_day>span{
+    font-size: 12px;
+    margin-bottom: 5px;
+    display: block;
+}
+.every_day>span::after{
+    font-family: "MyIcon";
+    display: inline-block;
+    content:"\e122";
+    position: relative;
+    height: 0;
+    left: 5px;
+}
+.article{
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 2px #888888;
+    text-align: left;
+    overflow: hidden;
+}
+.article_title{
+    font-size: 20px;
+    padding: 20px 10px 5px 10px;
+    color: #13102b;
+    display: inline-block;
+}
+.article_title:hover{
+    color: #23527c;
+}
+.article_content{
+    color: #333;
+    font-size: 14px;
+    padding: 0px 10px 20px 10px;
+}
+.article_footer{
+    background-color: #1f1f1f;
+    color: #eee;
+    padding: 5px 15px;
+    font-size: 14px;
+}
